@@ -1,14 +1,14 @@
 importScripts('https://www.gstatic.com/firebasejs/7.13.1/firebase-app.js');
 importScripts('https://www.gstatic.com/firebasejs/7.13.1/firebase-messaging.js');
 
-const config = {
-  apiKey: 'AIzaSyD6n58WMRzrcXxMnDGvzttxk4lqNu0MZbI',
-  authDomain: 'push-notifications-article.firebaseapp.com',
-  databaseURL: 'https://push-notifications-article.firebaseio.com',
-  projectId: 'push-notifications-article',
-  storageBucket: 'push-notifications-article.appspot.com',
-  messagingSenderId: '607164875245',
-  appId: '1:607164875245:web:ac22e68ecfd336b8ad67e4',
+const config = { 
+  apiKey: "AIzaSyBOUOfpYvI9yODtJGZMYC5MobOAnQ-fAf8",
+  authDomain: "react-meal-f019c.firebaseapp.com",
+  projectId: "react-meal-f019c",
+  storageBucket: "react-meal-f019c.appspot.com",
+  messagingSenderId: "117520377591",
+  appId: "1:117520377591:web:b08f65342db5ef625a15f2",
+  measurementId: "G-TGD7TXVVR5",
 
 };
 

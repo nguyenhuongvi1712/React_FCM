@@ -18,6 +18,7 @@ export const Messaging = () => {
   React.useEffect(() => {
     setRequesting(true);
     axios.get('/messages').then((resp) => {
+      console.log('resp', resp)
       setMessages(resp.data.messages);
       setRequesting(false);
     });
@@ -48,7 +49,7 @@ export const Messaging = () => {
               toast.success('Submitted succesfully');
             })
             .catch((err) => {
-              console.log(err);
+              console.log('err',err);
               toast.error('There was an error saving the message');
             });
         }}
